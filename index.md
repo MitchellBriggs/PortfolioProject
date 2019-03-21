@@ -29,3 +29,11 @@
 
 *Review*
 <p>In review of this week, I found it quite productive. Since I wasn't being held up due to the slow tutorial, I was able to go through and work at my own pace. This meant I was able to get a lot of stuff done. We, unfortunately, might be getting split up into separate  project groups, as Nick already has been. This means it's only James and I left working together. However, we can still help each other out, as we are all still working together, on somewhat similar projects.</p>
+
+
+## Week 5
+<p>In the first class of week 5, I found out that our project group would be seperated into 3 different projects. I would no longer be working on stuff for colour blindness, but instead I would be working on a 3D virtual model of the old Dunedin toilets. This means that I would no longer be working with anyone in the project team. I still have no idea what exactly I would be doing, as the meeting with the modelling people was cancelled due to them being busy.</p>
+<p>In the second class of week 5, I meet with the people in polytech who did all the modelling/graphic design. They showed me all their modelling software and other tools that they used to create different 3D structures. They showed me how their software gave them a virtual walk around of the models that they had created. They sent me a whole bunch of files to use in my project, so the plan over the next week is to try and import them into unity, without it all crashing down.</p>
+
+*Review*
+<p>In review of this week, I found it a little worrying that I was going to be working on this project alone. However, after meeting with the people doing the modelling, I feel like I might be able to do quite well with this project. My next steps are to try and impliment the 3D models into unity, so that we can see if we can create a realisitic walk around for the user.</p>
