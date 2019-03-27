@@ -37,3 +37,8 @@
 
 *Review*
 <p>In review of this week, I found it a little worrying that I was going to be working on this project alone. However, after meeting with the people doing the modelling, I feel like I might be able to do quite well with this project. My next steps are to try and implement the 3D models into unity so that we can see if we can create a realistic walk around for the user.</p>
+
+
+## Week 6
+<p>Over the weekend I attempted to import the models that I was given. For whatever reason they did not work for me. I contacted the modelling group; they said that they would try and export it differently so that I could get it to work. All I can do now, is wait.</p>
+<p>In the first class of week 6, we didn't have class. However the people doing the modelling sent me an updated version of the model, which I was able to import into unity. This allowed me to finally make a walk around through the already created model.</p>
