@@ -40,5 +40,12 @@
 
 
 ## Week 6
-<p>Over the weekend I attempted to import the models that I was given. For whatever reason they did not work for me. I contacted the modelling group; they said that they would try and export it differently so that I could get it to work. All I can do now, is wait.</p>
-<p>In the first class of week 6, we didn't have class. However the people doing the modelling sent me an updated version of the model, which I was able to import into unity. This allowed me to finally make a walk around through the already created model.</p>
+<p>Over the weekend I attempted to import the models that I was given. For whatever reason, they did not work for me. I contacted the modelling group; they said that they would try and export it differently so that I could get it to work. All I can do now is wait.</p>
+<p>In the first class of week 6, we didn't have class. However, the people doing the modelling sent me an updated version of the model, which I was able to import into unity. This allowed me to finally make a walk around through the already created model.</p>
+<p>In the second class of week 6, I was able to show my lecturer the attempts at making the walk around. However, we came to the conclusion that the models used in the current walk around where too well defined, which caused unity to crash and burn. Because of this, I contacted the modelling group and asked them for a less intensive model to work with. Over the weekend between week 6 and 7, they contacted me with a newer model, however, this one was lacking in some of the textures that were visible to the user.</p>
+
+*Review*
+<p>In review of this week, I found that it was quite productive. I was able to start seeing progress towards a proper working/moving walk around in unity (even though it caused it to crash and burn), but it still progressed. What didn't go well, was also what went well. Because of how dense the model was in terms of detail, it meant that program lagged severely, and was pretty much unplayable. What I want to work on next is, to somehow find a way to get the program to stop lagging as much, and have an easier time running the program.</p>
+
+## Week 7
+<p>In the first class of week 7, I started to play around with the new model that I was given, attempting to see where the missing textures were, and if I could fix them. I came up with an idea of using parts of the previously high-cost model since everything was already together. Through doing this, I was able to create a significantly less shuttering program, and in turn a better user experience. In the next class, I aim to finish filling in missing textures, and start adding in little pieces of detail back into the model (from the high cost version).</p>
