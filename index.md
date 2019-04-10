@@ -53,3 +53,6 @@
 
 *Review*
 <p>In review of this week, I found that the goal of having a virtual walk around was getting closer. I was able to add in textures to parts of the model, so that the model wasn't completely white, and I was able to add in new features into the low cost model, without it completely destroying unity. Over this week, nothing didn't go that poorly. The only difficult part was lining up parts of the model, so that components wouldn't overlap, but looked like they were connected. For next week, I plan on continuing to add in as much detail into the model as possible, while trying to sustain usibility.</p>
+
+## Week 8
+<p>In the first class of week 8, I attempted to continue working with the new model that I was given. However due to the many missing walls, doors, and details, I decided to move back to the more intensive model. I removed the light sources, and some of the highly detailed parts of the model. This meant I was able to still move around without it having 1 frame per second. In the next class I plan on adding in coloured textures into the model, so that the user has an enjoyable visual experience.</p>
