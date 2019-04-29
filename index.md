@@ -56,3 +56,10 @@
 
 ## Week 8
 <p>In the first class of week 8, I attempted to continue working with the new model that I was given. However due to the many missing walls, doors, and details, I decided to move back to the more intensive model. I removed the light sources, and some of the highly detailed parts of the model. This meant I was able to still move around without it having 1 frame per second. In the next class I plan on adding in coloured textures into the model, so that the user has an enjoyable visual experience.</p>
+<p>In the second class of week 8, I modified the walk around so that it would be more optimized. I did this because the program would start to drop in frames per second every now and then, and also had the opportunity for players to look through walls. So I changed a few of the settings in unity so that the game would work better.</p>
+
+*Review*
+<p>In review of this week, I found that I was able to get a working walk around, so that the "player" could experience what the old toilets looked like. One thing that didn't go well was that the parts of the model are still missing. This means that I have to go through and add in specific parts to it to fill in the gaps. For next time, I would like to have an interactable environment, so that the player can do stuff while they are walking around.</p>
+
+## Holidays
+<p>Over the holidays I worked on getting an interactive environment, which the player can do stuff in. Currently it only has the ability to open and close doors, and in doing so, sacrificing the ability to walk around. Hopefully over the next few weeks I will be able to implement a way for the player to move around, while interacting with the environment.</p>
