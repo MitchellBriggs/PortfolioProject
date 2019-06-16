@@ -111,3 +111,11 @@
 
 *Review*
 <p>In review of week 14, I found that it was quite productive, even though there was just one class. I was able to get a idea of how to make text appear, and then improve on it by having it appear in 3D space. Nothing really went wrong this week. It was just quite time consuming to find out how to get the canvas to appear/disappear. Next week I hope to add in actual information about the model, so that when a user hovers over an "information point" they are able to see new information.</p>
+
+## Week 15
+<p>In the first class of week 15, I continued to work on making the on screen text look better in 3D space. While I only had one 'information box' in the actual model, it was a good start to getting the text boxes going. This is because, Alison asked if it was possibly for me to have information showing up in the model. My lecturer then gave me the idea to email Alison and ask if she had any information regarding the model itself, so that I could insert that in as well.</p>
+<p>On Wednesday I had another meeting with the modelling people from the Polytechnic, show them all the work I had done over the semester with their model. They were extremely happy with the progress I had made, and were hoping to further this project into next semester with a new student(s).</p>
+<p>In the second class of week 15, I decided that after my meeting with the modeling people, I was finished adding in new features into the model. I decided to work on my documentation, as it appears that I'll be handing this project off to someone else.</p>
+
+*Review*
+<p>In review of week 15, I find the project coming to a close. I've enjoyed working on the model that I was given, getting to know how it all used to look, and then getting to make it come to life. I've learnt a lot about working with unity and the GoogleVR elements. Whether it be the ball game I made at the start of the project, or the model that I finished with. It was enjoyable getting to bring the model to life. Nothing really went wrong this week. There was a few hiccups when it came to trying to get the text to fade in and out, but other than that, it was a good week. For next week, I just have to finish off my documentation, and then I'm done.</p>
