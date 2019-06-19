@@ -30,6 +30,17 @@
 *Review*
 <p>In review of this week, I found it quite productive. Since I wasn't being held up due to the slow tutorial, I was able to go through and work at my own pace. This meant I was able to get a lot of stuff done. We, unfortunately, might be getting split up into separate  project groups, as Nick already has been. This means it's only James and I left working together. However, we can still help each other out, as we are all still working together, on somewhat similar projects.</p>
 
+## Images of the collection game
+
+*Design*
+![Image](design.png)
+*Starting out*
+![Image](levelstart.png)
+*Halfway through*
+![Image](halfway.png)
+*End of a level*
+![Image](finish.png)
+
 
 ## Week 5
 <p>In the first class of week 5, I found out that our project group would be separated into 3 different projects. I would no longer be working on stuff for colour blindness, but instead, I would be working on a 3D virtual model of the old Dunedin toilets. This means that I would no longer be working with anyone in the project team. I still have no idea what exactly I would be doing, as the meeting with the modelling lecturers was cancelled due to them being busy.</p>
@@ -119,3 +130,23 @@
 
 *Review*
 <p>In review of week 15, I find the project coming to a close. I've enjoyed working on the model that I was given, getting to know how it all used to look, and then getting to make it come to life. I've learnt a lot about working with unity and the GoogleVR elements. Whether it be the ball game I made at the start of the project or the model that I finished with. It was enjoyable getting to bring the model to life. Nothing really went wrong this week. There were a few hiccups when it came to trying to get the text to fade in and out, but other than that, it was a good week. For next week, I just have to finish off my documentation, and then I'm done.</p>
+
+## Week 16
+<p>As the semester is coming to a close, it means that the project is at as well. I'm very happy with what I've achieved over the semester, whether it be going through the first ball tutorial, to completing the VR walk around. I have enjoyed working together with the modelling people from the Polytechnic, my lecturer, and my project team (even though we got seperated). I've learnt a lot about using unity. What works, what doesn't work, what really really doesn't work. Hopefully the project can be carried onto next semester.</p>
+
+## Images of the collection game
+
+*Outside*
+![Image](outside.png)
+*Downstairs Mens 1*
+![Image](downstairs.png)
+*Downstairs Mens 2*
+![Image](downstairs2.png)
+*Downstairs Womens 1*
+![Image](downstairs3.png)
+*Downstairs Womens 2*
+![Image](downstairs4.png)
+
+*Link to project*
+<br>
+<a href='https://github.com/MitchellBriggs/BlindToilets'>Project</a>
