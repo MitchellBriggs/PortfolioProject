@@ -85,6 +85,14 @@
 ## Week 10
 <p>In the first class of week 10, I organised a meeting with the modelling lecturers at the polytech. This was scheduled for Wednesday. In the class, I also managed to implement a way of moving around the model. This is done by the user moving their thumb over the trackpad on the google daydream controller. I also managed to work in a way where the movement will always be determined based on where the player is looking. For example, if the player is looking in one direction, and swipes forward on the controller, the will move in the direction they are looking. Then if the player looks behind them, and swipes forward, the will still move in the direction they are moving.</p>
 <p>On Tuesday I decided that my "snapping" doors would look better if they were animated. So I had a look into just rotating objects in the unity space. However, due to the way that the model had been created, just simply rotating them meant that they would go flying off the screen. So I had to create separate game objects for each one of the doors in the model. This way I was able to create a smoother open/close of the doors.</p>
+
+*Open Doors*
+![Image](DoorsOpen.png)
+*Alternating Doors*
+![Image](DoorClosed.png)
+*Closed Doors*
+![Image](DoorsClosed.png)
+
 <p>On Wednesday I had my meeting with the modelling lecturers. The said that they had loved what I had done so far and that they didn't have anything that they wanted to be changed. All they wanted me to do, was to send them an email regarding all of the parts of the model which aren't completely there, and a progress report to send to the DCC. I can assume that this means that they are happy with what I've done and that I'm on the right track.</p>
 <p>In the second class of week 10, I started working on getting some taps to rotate when clicked on. Instead of creating a new script to handle the movement of the taps, I modified the script that I used for the doors. This meant that I was able to use the script on the taps as well as the doors without too much difficulty. I then proceeded to add this to all of the taps in the model, which now means that there is more functionality.</p>
 
@@ -93,7 +101,7 @@
 
 ## Week 11
 <p>In the first class of week 11, I decided to work on a way for the user to know if an object they were hovering over was interactable. At first, I came up with the idea of having objects highlight when they were hovered over. I had a look through unity's asset store and tried to use all of the available free highlighting assets, however, none of them seemed to work. While at home, I had an idea of using the tooltips that the controller displays when the user tilts it up. This took a while to get working properly, as tooltips weren't actually attached to the controller as an object. I had to go through the GvrArmModel object to access the ability to get the tooltips to appear/disappear.</p>
-<p>In the second class of week 11, I worked towards improving the functionality of turning the taps on and off. I did this by creating a "water" object, which appeared/disappeared when the user clicked on one or more of the taps. This was relatively simple to do, as I just created a new script which used the original script I wrote to turn the taps on and off. This was so that when a user turned on a tap, stuff actually happened, not just the taps turning</p>
+<p>In the second class of week 11, I worked towards improving the functionality of turning the taps on and off. I did this by creating a "water" object, which appeared/disappeared when the user clicked on one or more of the taps. This was relatively simple to do, as I just created a new script which used the original script I wrote to turn the taps on and off. This was so that when a user turned on a tap, stuff actually happened, not just the taps turning.</p>
 
 *Review*
 <p>In review of week 11, I was able to provide more functionality and a way for the user to clearly identify if an object is interactable. I wasn't happy with the amount of time I spent trying to find a hover effect that worked. After doing some research on it, I found that the hover effect wasn't working because my unity GameObject didn't have a complete mesh. So because the model was broken up into tiny pieces, it meant that I couldn't get a hover effect going. Next week I really hope to work on doing some form of performance improvements, I've spoken to my lecturer, and there are two possible ways of doing it. One where we turn parts of the model on and off, and one where we move parts of the model around the unity 3D space but put a camera view onto a plane so that the user still sees what should be there.</p>
@@ -108,11 +116,19 @@
 
 ## Week 13
 <p>In the first class of week 13, I started working on an attempt at getting the lighting to work. I did this by adding in point lights into the light shade objects in the model and then adding in a "light switch" that I created from two unity cubes. This lit up the model quite well, and I thought it would run well since it did on the computer. However, once I ran it on the phone when you tried to turn the lights on, the whole app would freeze for 5-10 seconds. This was just because, with all the new lights creating shadows, it caused the performance to drop significantly. In the next class, I hope to be able to work on a fix for this.</p>
+<p>On Tuesday of this class, I found a way to make water appear to "fill" up in the sink when turned on, and "empty" when turned off. I did this by modifying the sizes and location of a flat cylinder that I put inside the sink. This makes the sink appear to fill up with water.</p>
 <p>On Wednesday, I had a meeting with Alison Breese from the DCC. She is the person who had the idea for the project, and passed it onto the modelling people at Polytech and then onto me. I show her the model, and everything that I had done, and showed her the walk around in VR, and she liked everything I had done. The only thing that she wanted me to do, was to have a way to have text appear in the model.</p>
 <p>In the second class of week 13, I worked on a solution to the lighting issues. This came down to a single point light that follows the player around, which still gets turned on and off by the light switch. This meant that I was able to have a new source of light inside the model, while not completely killing performance on the phone.</p>
 
 *Review*
 <p>In review of week 13, I thought that it went well. I was able to work on a new light source for the model, which meant that the inside of the model was more visible, while not completely killing performance. What didn't go well is that now because of how I've done the new light source, if you don't turn the light off, it will still be on, even when you leave the underground. For next week, I hope to have implemented a way of seeing text appear in the model and sorting the light source out.</p>
+
+*Empty Sink*
+![Image](emptysink.png)
+*Sink Filling Up*
+![Image](fillingsink.png)
+*A Full Sink*
+![Image](fullsink.png)
 
 ## Week 14
 <p>We didn't have class on Monday as it was a public holiday.</p>
