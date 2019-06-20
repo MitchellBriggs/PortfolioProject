@@ -30,7 +30,7 @@
 *Review*
 <p>In review of this week, I found it quite productive. Since I wasn't being held up due to the slow tutorial, I was able to go through and work at my own pace. This meant I was able to get a lot of stuff done. We, unfortunately, might be getting split up into separate  project groups, as Nick already has been. This means it's only James and I left working together. However, we can still help each other out, as we are all still working together, on somewhat similar projects.</p>
 
-## Images of the collection game
+## Images of the Collection Game
 
 *Design*
 ![Image](design.png)
@@ -150,7 +150,7 @@
 ## Week 16
 <p>As the semester is coming to a close, it means that the project is at as well. I'm very happy with what I've achieved over the semester, whether it be going through the first ball tutorial, to completing the VR walk around. I have enjoyed working together with the modelling people from the Polytechnic, my lecturer, and my project team (even though we got seperated). I've learnt a lot about using unity. What works, what doesn't work, what really really doesn't work. Hopefully the project can be carried onto next semester.</p>
 
-## Images of the collection game
+## Images of the Final Project
 
 *Outside*
 ![Image](outside.png)
