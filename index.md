@@ -194,3 +194,13 @@
 <p> In week 3 we finally were able to find the whole project on my (C:) drive. And with this, we were finally able to start development. Our first task was to sort through everything, and try and work out where it was. After we had done that, we had a meeting with our project leader in regards to what we intend on doing for the semester. Some of the main ideas covered were a lot of bug fixing, getting some menu/hud going, and then further possible features. From there, we set off to try and sort through the list of tasks set for us to complete. My first task was to sort out the fixing the possession. The issue was that the player could still possess dead animals. This was an easy fix. By finding where they had already done possession, and then just using the isDead check that had already been implimented. </p>
 *Review*
 <p> In review of this week, it was really good to finally be able to get down and actually do work on the project. It was really interesting trying to go through the code that had already been created. Trying to find out how things work together, and how to change things to do different stuff. </p>
+
+## Week 4
+<p> In week 4, I started fixing another bug regarding the arrows. They have an issue regarding their collisions. The arrows would "bounce" off of the objects that they were colliding with, which lead me to believe that the collisions weren't occuring properly. I had the idea of using a previous position/rotation, which is stored everytime the arrow moves. This is so that once the arrow collides with an object, it can return to the previous position and rotation, right before the collision occurs. This fixed the bouncing off of objects, and to "stick" into objects properly. </p>
+*Review*
+<p> In review of this week, I really enjoyed learning how the arrows work in regards to collision between them and other objects. One issue that I think might occur, is that if a whole lot of arrows are fired, they'll need to save their previous locations. So this may need to be fixed in future implementations.</p>
+
+## Week 5
+<p> In week 5, I got given a new task for doing draw back on the bows. This was to give them an "animation" rather than just when you click they shoot an arrow. I started by using the code that had been implemented for the possession. From there I had to create a new Use() function, as the old one couldn't handle passing a time value in. This time value is used to calculate how fast the arrow will fly, and how much damage it will do. These values can be adjusted to suit a more balanced gameplay.</p>
+*Review*
+<p> In review of this week,
