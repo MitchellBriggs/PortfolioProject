@@ -1,3 +1,3 @@
 # Portfolio
 
-<a href='p1.html'>Project 1</a>
+<a href='p1.md'>Project 1</a>
