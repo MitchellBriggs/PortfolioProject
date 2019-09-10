@@ -1,7 +1,7 @@
 # Portfolio
 
 <a href='#project1'>Project 1</a>
-</br>
+<br>
 <a href='#project2'>Project 2</a>
 
 <div id="project1">
