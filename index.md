@@ -1,5 +1,7 @@
 # Portfolio
 
+<a href='p1.html'>Project 1</a>
+
 ## Week 1
 <p>In the first class of week one, was just an introductory class into what the project was about, and how we were to set up our workstations. We had to do this all manually ourselves to simulate what it would be like in the real world coming into a company that has already up and running. We also found out all the different projects that were available for us to partake in. However, the one project I wanted to do, game development, highly sorted after, so I had to apply for it. This meant that I had to go and talk to my lecturer about becoming part of the group. So I organised a meeting via email (as when I went to see him, he was busy in a meeting), and then the next day I went and had the interview.</p>
 <p>In the second class of this week, we found out what projects we would be taking part in. I was lucky enough to find myself being part of the game development group, but in a smaller, less central group. This meant that while I wasn't part of the main game development group, I was still able to be part of a game development project. I also met the people I would be working with, James Grigg (my friend) I already knew, and Nick Mulrooney. Neither James or I had worked with Nick before, so we had to go through the stages of forming a group. This was made significantly easier since everyone was pretty relaxed about everything. We just got along.</p>
