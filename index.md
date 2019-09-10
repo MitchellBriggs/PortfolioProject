@@ -203,4 +203,14 @@
 ## Week 5
 <p> In week 5, I got given a new task for doing draw back on the bows. This was to give them an "animation" rather than just when you click they shoot an arrow. I started by using the code that had been implemented for the possession. From there I had to create a new Use() function, as the old one couldn't handle passing a time value in. This time value is used to calculate how fast the arrow will fly, and how much damage it will do. These values can be adjusted to suit a more balanced gameplay.</p>
 *Review*
-<p> In review of this week,
+<p> In review of this week, I've learnt a lot in regards to getting objects to move via player input, and then having corresponding actions occur due to those inputs. The issue that I had this week, is that due to how I've implemented the Use() function for the bow, it's resulted in a lot of duplicated code. This, unfortunately, can't be worked around due to the how the original function was implemented. Hopefully this won't result in a new Use function every time a new feature comes into play.</p>
+
+## Week 6
+<p> In week 6, I started learning about how the network for the game had been implemented to allowed for serverside/clientside objects to be rendered and interacted with. I've decided that I would try and work on getting a "spawner" to work, so that we can dynamically produce mobs in the game. However, it is very difficult to understand how the networking actually works, and how I can get an object to run on multiple clients.</p>
+*Review*
+<p> In review of this week, I've learnt a bit regarding how to spawn gameobjects on the server and getting them to run clientside. However, one rather large issue occured, where the deer would not longer take damage. This was easily fixed by adding in the damage call once a collision had occured. I have no idea how this bug had come about, but it was fixed rather quickly.</p>
+
+## Week 7
+<p> In week 7, I continued to learn about how gameobjects are spawned in the network. I was able to get deer to spawn in the network, so that they'd interact with players, however they don't appear clientside. So they spawn in the network, they just don't appear clientside. I have no idea how/why this is happening, I would've assumed that since they are in the network, they would appear visually as well. I will have to investigate this next week.</p>
+*Result*
+<p> In review of this week, I'm completely stumped as to why the deer won't appear visually on the client. I try and read the documentation regarding the network that we are running, however I still can't work out why the deer won't appear properly. Hopefully next week I'll be able to sort it out.</p>
