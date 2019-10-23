@@ -212,5 +212,28 @@
 
 ## Week 7
 <p> In week 7, I continued to learn about how gameobjects are spawned in the network. I was able to get deer to spawn in the network, so that they'd interact with players, however they don't appear clientside. So they spawn in the network, they just don't appear clientside. I have no idea how/why this is happening, I would've assumed that since they are in the network, they would appear visually as well. I will have to investigate this next week.</p>
-*Result*
+*Review*
 <p> In review of this week, I'm completely stumped as to why the deer won't appear visually on the client. I try and read the documentation regarding the network that we are running, however I still can't work out why the deer won't appear properly. Hopefully next week I'll be able to sort it out.</p>
+
+## Week 8
+<p> In week 8, I finally managed to get the deer to spawn on both the client and server side. The issue wasn't that I hadn't done the networking code properly, it was that I didn't realise that deer had to be added to the list of network objects in the network manager. From the documentation it appeared that this wasn't necessary, however, it appears that the documentation wasn't completely correct. I've also managed to create it, so that the spawner can handle multiple mobs at once. This allows for the spawner to spawn multiple mobs at once, without the need for duplicating the spawner object.</p>
+*Review*
+<p> In review of this week, I'm very happy with my progress in getting the networked objects up and running. It was quite the mission as none of the documentation said anything about the issues I was having, but I was able to get it done in the end.</p>
+
+## Week 9
+<p> In week 9, we added in a new wolf mob to the game. This however, came with it's own new challenges. The arrows wouldn't drop properly when it died, it couldn't be possessed correctly, and the highlighting made it look horrible. So I spent this week trying to fix out all the issues regarding the wolf, so that it would work correctly. In addition to this, I noticed that on the non-host end, the deer would jitter all over the place when they tried to move around. This would have to be fixed, as it's quite noticable.</p>
+*Review*
+<p> In review of this week, it was quite a relaxing week regarding stuff to do. I managed the sort out the issues regarding the wolf, so now we have a new mob in the game. I wasn't however, able to fix the jitter in the non-client end, so that will still have to be sorted out. </p>
+
+## Week 10
+<p> In week 10, we decided to create a new terrain for the players to play on. This meant we could move away from the old flat forest, and into a new, terrain with a vertical component. However, due to this, the mobs no longer would run around on the terrain, instead they would slide down hills and across flat surfaces. This was due to the mobs not correctly spawn on the navmesh on the terrain. I was able to fix this, but when the player tried to possess a mob, the mob would then slide down the terrain. So I fixed that by freezing the mob in place once the player starts possessing. </p>
+*Review*
+<p> In review of this week, I was able to fix up some issues regarding the new terrain, and the mobs on that terrain. In the future, we hope that we are able to create multiple "pieces" of terrain, so that we could possible stitch them together to create a larger map for the player. </p>
+
+## Holidays
+<p> Over the holidays, I began working on a basic inventory system for the game. This just incorporated the circle menu that James had already created, with a few extra add ons. Now the player no longer starts with the bow in their hands, instead they can go into their inventory, and equip the bow from there. I also added in the UI for the mobs, so the player can see their remaining possession time.</p>
+
+## Week 11
+<p> In week 11, I did some more additional stuff to do with the inventory. Firstly I changed it so that the player accessed it by clicking and holding the middle mouse button. And secondly, I added the ability for the player to now, drop and pick stuff up, using the inventory. I was also asked to add in a reticle for the player, so that they knew what they were looking at. However, in doing so, I have realised that the bow no longer fires where the player is looking. This will need to be fixed. </p>
+*Review*
+<p> In review of this week, I was able to finish up the basics for the inventory, so that the player can now hold multiple items at once. This will give the player more flexibility while playing the game. One thing that didn't go so well, was finding out the players bow didn't line up with the middle of the screen. This will have to be fixed. </p>
