@@ -237,3 +237,27 @@
 <p> In week 11, I did some more additional stuff to do with the inventory. Firstly I changed it so that the player accessed it by clicking and holding the middle mouse button. And secondly, I added the ability for the player to now, drop and pick stuff up, using the inventory. I was also asked to add in a reticle for the player, so that they knew what they were looking at. However, in doing so, I have realised that the bow no longer fires where the player is looking. This will need to be fixed. </p>
 *Review*
 <p> In review of this week, I was able to finish up the basics for the inventory, so that the player can now hold multiple items at once. This will give the player more flexibility while playing the game. One thing that didn't go so well, was finding out the players bow didn't line up with the middle of the screen. This will have to be fixed. </p>
+
+## Week 12
+<p> In week 12, I started working on getting some mulitplayer possession going. Due to animals not originally being in the networking, the possession system didn't work for non-hosts. So I had to start revamping the possession system to account for the multiplayer. I started by moving most of the possession to the player class. This is because the player is local to each individual player, it means that it can make network calls. This allowed me to start working towards getting the player to move using mirror calls.</p>
+*Review*
+<p> In review of this week, I was able to start working towards getting the player to move using mirror calls. This is a step forward in getting the non-host clients to move possessed animals around. Hopefully next week I'll be able to get the player to be able to move the animals around. </p>
+
+## Week 13
+<p> In week 13, I was able to get the deer moving on both client and host sides. I had to completely move the entire player movement into mirror calls so that they could control the deer, and move the deer around on the network. This was all I had hoped to achieve this week, as next week we are planning on going to the town hall to show off our project. </p>
+*Review*
+<p> In review of this week, I was able to get done what I had intended on doing. I was able to get the non-host to be able to move the deer around the world without issues. Next week we are going to show off our project, as there is a game development meeting at the town hall. </p>
+
+## Week 14
+<p> In week 14, the entire project broke. 2 days before we were going to the town hall we decide to merge our work together, so that we all had eachother's work. This however, broke everything. We lost a lot of performance, everything I had worked on, from the player visuals to the change in key bindings, and the inventory system were all lost. So I spent the week trying to fix all of this. Unfortunately we were unable to get the merged work together in time for the game dev meeting, so we showed off the work we had done instead. </p>
+*Review*
+<p> In review of this week, everything went bad. I lost all of my progress due to a simple merge. Luckily I had kept a backup of all the work I had completed, so I was able to start fixing stuff right away. I'm still not completely back up to speed, so I'll have to keep fixing issues next week. </p>
+
+## Week 15
+<p> In week 15, I found out that the possession system had also been broken. This is gonna be a real issue, as it will have to be fixed by next week, as that is when we will have to complete our final merge and complete the semester. So all bugs and issues will have to be sorted out before then. I did however completely fix the inventory, which just required copying over the work that I had completed. </p>
+*Review*
+<p> In review of this week, it wasn't a great week in terms of actual work produced. I was able to start trying to fix the player movement, both for the player, and the possessed animals. It's difficult because the way that the animals are set up, means that only parts of the animal are effected by gravity, which makes it difficult to understand why it's breaking.</p>
+
+## Week 16
+--Clean everything up
+*Review*
