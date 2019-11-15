@@ -182,51 +182,61 @@
 
 ## Week 1
 <p> Week 1 was a lot like week 1 in project 1. A lot of sorting out the project teams, getting ourselves into our teams, and onto our computers.</p>
+
 *Review*
 <p> Not a whole lot really happened in this week, we just introduced ourselves to everyone in the project team. </p>
 
 ## Week 2
 <p> In week 2 we got stuck on trying to find the assets for the main game. We couldn't find any on the (D:) drives on the computers where we assumed that the previous students would put the project. However, we couldn't find them. Our project leader suggested that they could be on one of the asset servers. However, with that came more problems. We couldn't actually get onto the asset servers as the keys that the dev-ops team had, were expired. So we had to wait till the Monday next week to get the servers up and running. </p>
+
 *Review*
 <p> In this week we attempted to sort out getting the assets for the game dev project. It was quite the struggle, as we couldn't find proper access to the assets for the game. Hopefully next week we will be able to access the assets so that we can begin development. </p>
 
 ## Week 3
 <p> In week 3 we finally were able to find the whole project on my (C:) drive. And with this, we were finally able to start development. Our first task was to sort through everything, and try and work out where it was. After we had done that, we had a meeting with our project leader in regards to what we intend on doing for the semester. Some of the main ideas covered were a lot of bug fixing, getting some menu/hud going, and then further possible features. From there, we set off to try and sort through the list of tasks set for us to complete. My first task was to sort out the fixing the possession. The issue was that the player could still possess dead animals. This was an easy fix. By finding where they had already done possession, and then just using the isDead check that had already been implimented. </p>
+
 *Review*
 <p> In review of this week, it was really good to finally be able to get down and actually do work on the project. It was really interesting trying to go through the code that had already been created. Trying to find out how things work together, and how to change things to do different stuff. </p>
 
 ## Week 4
 <p> In week 4, I started fixing another bug regarding the arrows. They have an issue regarding their collisions. The arrows would "bounce" off of the objects that they were colliding with, which lead me to believe that the collisions weren't occuring properly. I had the idea of using a previous position/rotation, which is stored everytime the arrow moves. This is so that once the arrow collides with an object, it can return to the previous position and rotation, right before the collision occurs. This fixed the bouncing off of objects, and to "stick" into objects properly. </p>
+
 *Review*
 <p> In review of this week, I really enjoyed learning how the arrows work in regards to collision between them and other objects. One issue that I think might occur, is that if a whole lot of arrows are fired, they'll need to save their previous locations. So this may need to be fixed in future implementations.</p>
 
 ## Week 5
 <p> In week 5, I got given a new task for doing draw back on the bows. This was to give them an "animation" rather than just when you click they shoot an arrow. I started by using the code that had been implemented for the possession. From there I had to create a new Use() function, as the old one couldn't handle passing a time value in. This time value is used to calculate how fast the arrow will fly, and how much damage it will do. These values can be adjusted to suit a more balanced gameplay.</p>
+
 *Review*
 <p> In review of this week, I've learnt a lot in regards to getting objects to move via player input, and then having corresponding actions occur due to those inputs. The issue that I had this week, is that due to how I've implemented the Use() function for the bow, it's resulted in a lot of duplicated code. This, unfortunately, can't be worked around due to the how the original function was implemented. Hopefully this won't result in a new Use function every time a new feature comes into play.</p>
 
 ## Week 6
 <p> In week 6, I started learning about how the network for the game had been implemented to allowed for serverside/clientside objects to be rendered and interacted with. I've decided that I would try and work on getting a "spawner" to work, so that we can dynamically produce mobs in the game. However, it is very difficult to understand how the networking actually works, and how I can get an object to run on multiple clients.</p>
+
 *Review*
 <p> In review of this week, I've learnt a bit regarding how to spawn gameobjects on the server and getting them to run clientside. However, one rather large issue occured, where the deer would not longer take damage. This was easily fixed by adding in the damage call once a collision had occured. I have no idea how this bug had come about, but it was fixed rather quickly.</p>
 
 ## Week 7
 <p> In week 7, I continued to learn about how gameobjects are spawned in the network. I was able to get deer to spawn in the network, so that they'd interact with players, however they don't appear clientside. So they spawn in the network, they just don't appear clientside. I have no idea how/why this is happening, I would've assumed that since they are in the network, they would appear visually as well. I will have to investigate this next week.</p>
+
 *Review*
 <p> In review of this week, I'm completely stumped as to why the deer won't appear visually on the client. I try and read the documentation regarding the network that we are running, however I still can't work out why the deer won't appear properly. Hopefully next week I'll be able to sort it out.</p>
 
 ## Week 8
 <p> In week 8, I finally managed to get the deer to spawn on both the client and server side. The issue wasn't that I hadn't done the networking code properly, it was that I didn't realise that deer had to be added to the list of network objects in the network manager. From the documentation it appeared that this wasn't necessary, however, it appears that the documentation wasn't completely correct. I've also managed to create it, so that the spawner can handle multiple mobs at once. This allows for the spawner to spawn multiple mobs at once, without the need for duplicating the spawner object.</p>
+
 *Review*
 <p> In review of this week, I'm very happy with my progress in getting the networked objects up and running. It was quite the mission as none of the documentation said anything about the issues I was having, but I was able to get it done in the end.</p>
 
 ## Week 9
 <p> In week 9, we added in a new wolf mob to the game. This however, came with it's own new challenges. The arrows wouldn't drop properly when it died, it couldn't be possessed correctly, and the highlighting made it look horrible. So I spent this week trying to fix out all the issues regarding the wolf, so that it would work correctly. In addition to this, I noticed that on the non-host end, the deer would jitter all over the place when they tried to move around. This would have to be fixed, as it's quite noticable.</p>
+
 *Review*
 <p> In review of this week, it was quite a relaxing week regarding stuff to do. I managed the sort out the issues regarding the wolf, so now we have a new mob in the game. I wasn't however, able to fix the jitter in the non-client end, so that will still have to be sorted out. </p>
 
 ## Week 10
 <p> In week 10, we decided to create a new terrain for the players to play on. This meant we could move away from the old flat forest, and into a new, terrain with a vertical component. However, due to this, the mobs no longer would run around on the terrain, instead they would slide down hills and across flat surfaces. This was due to the mobs not correctly spawn on the navmesh on the terrain. I was able to fix this, but when the player tried to possess a mob, the mob would then slide down the terrain. So I fixed that by freezing the mob in place once the player starts possessing. </p>
+
 *Review*
 <p> In review of this week, I was able to fix up some issues regarding the new terrain, and the mobs on that terrain. In the future, we hope that we are able to create multiple "pieces" of terrain, so that we could possible stitch them together to create a larger map for the player. </p>
 
@@ -235,29 +245,35 @@
 
 ## Week 11
 <p> In week 11, I did some more additional stuff to do with the inventory. Firstly I changed it so that the player accessed it by clicking and holding the middle mouse button. And secondly, I added the ability for the player to now, drop and pick stuff up, using the inventory. I was also asked to add in a reticle for the player, so that they knew what they were looking at. However, in doing so, I have realised that the bow no longer fires where the player is looking. This will need to be fixed. </p>
+
 *Review*
 <p> In review of this week, I was able to finish up the basics for the inventory, so that the player can now hold multiple items at once. This will give the player more flexibility while playing the game. One thing that didn't go so well, was finding out the players bow didn't line up with the middle of the screen. This will have to be fixed. </p>
 
 ## Week 12
 <p> In week 12, I started working on getting some mulitplayer possession going. Due to animals not originally being in the networking, the possession system didn't work for non-hosts. So I had to start revamping the possession system to account for the multiplayer. I started by moving most of the possession to the player class. This is because the player is local to each individual player, it means that it can make network calls. This allowed me to start working towards getting the player to move using mirror calls.</p>
+
 *Review*
 <p> In review of this week, I was able to start working towards getting the player to move using mirror calls. This is a step forward in getting the non-host clients to move possessed animals around. Hopefully next week I'll be able to get the player to be able to move the animals around. </p>
 
 ## Week 13
 <p> In week 13, I was able to get the deer moving on both client and host sides. I had to completely move the entire player movement into mirror calls so that they could control the deer, and move the deer around on the network. This was all I had hoped to achieve this week, as next week we are planning on going to the town hall to show off our project. </p>
+
 *Review*
 <p> In review of this week, I was able to get done what I had intended on doing. I was able to get the non-host to be able to move the deer around the world without issues. Next week we are going to show off our project, as there is a game development meeting at the town hall. </p>
 
 ## Week 14
 <p> In week 14, the entire project broke. 2 days before we were going to the town hall we decide to merge our work together, so that we all had eachother's work. This however, broke everything. We lost a lot of performance, everything I had worked on, from the player visuals to the change in key bindings, and the inventory system were all lost. So I spent the week trying to fix all of this. Unfortunately we were unable to get the merged work together in time for the game dev meeting, so we showed off the work we had done instead. </p>
+
 *Review*
 <p> In review of this week, everything went bad. I lost all of my progress due to a simple merge. Luckily I had kept a backup of all the work I had completed, so I was able to start fixing stuff right away. I'm still not completely back up to speed, so I'll have to keep fixing issues next week. </p>
 
 ## Week 15
 <p> In week 15, I found out that the possession system had also been broken. This is gonna be a real issue, as it will have to be fixed by next week, as that is when we will have to complete our final merge and complete the semester. So all bugs and issues will have to be sorted out before then. I did however completely fix the inventory, which just required copying over the work that I had completed. </p>
+
 *Review*
 <p> In review of this week, it wasn't a great week in terms of actual work produced. I was able to start trying to fix the player movement, both for the player, and the possessed animals. It's difficult because the way that the animals are set up, means that only parts of the animal are effected by gravity, which makes it difficult to understand why it's breaking.</p>
 
 ## Week 16
---Clean everything up
+Clean everything up
+
 *Review*
