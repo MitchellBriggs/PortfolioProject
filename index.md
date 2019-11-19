@@ -198,6 +198,9 @@
 *Review*
 <p> In review of this week, it was really good to finally be able to get down and actually do work on the project. It was really interesting trying to go through the code that had already been created. Trying to find out how things work together, and how to change things to do different stuff. </p>
 
+*Original Terrain*
+![Image](OriginalTerrain.png)
+
 ## Week 4
 <p> In week 4, I started fixing another bug regarding the arrows. They have an issue regarding their collisions. The arrows would "bounce" off of the objects that they were colliding with, which lead me to believe that the collisions weren't occuring properly. I had the idea of using a previous position/rotation, which is stored everytime the arrow moves. This is so that once the arrow collides with an object, it can return to the previous position and rotation, right before the collision occurs. This fixed the bouncing off of objects, and to "stick" into objects properly. </p>
 
@@ -209,6 +212,12 @@
 
 *Review*
 <p> In review of this week, I've learnt a lot in regards to getting objects to move via player input, and then having corresponding actions occur due to those inputs. The issue that I had this week, is that due to how I've implemented the Use() function for the bow, it's resulted in a lot of duplicated code. This, unfortunately, can't be worked around due to the how the original function was implemented. Hopefully this won't result in a new Use function every time a new feature comes into play.</p>
+
+*Bow Drawn Back*
+![Image](DrawnBack.png)
+
+*Bow Fired*
+![Image](Fired.png)
 
 ## Week 6
 <p> In week 6, I started learning about how the network for the game had been implemented to allowed for serverside/clientside objects to be rendered and interacted with. I've decided that I would try and work on getting a "spawner" to work, so that we can dynamically produce mobs in the game. However, it is very difficult to understand how the networking actually works, and how I can get an object to run on multiple clients.</p>
@@ -239,6 +248,9 @@
 
 *Review*
 <p> In review of this week, I was able to fix up some issues regarding the new terrain, and the mobs on that terrain. In the future, we hope that we are able to create multiple "pieces" of terrain, so that we could possible stitch them together to create a larger map for the player. </p>
+
+*New Terrain*
+![Image](NewTerrain.png)
 
 ## Holidays
 <p> Over the holidays, I began working on a basic inventory system for the game. This just incorporated the circle menu that James had already created, with a few extra add ons. Now the player no longer starts with the bow in their hands, instead they can go into their inventory, and equip the bow from there. I also added in the UI for the mobs, so the player can see their remaining possession time.</p>
