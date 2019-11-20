@@ -286,6 +286,10 @@
 <p> In review of this week, it wasn't a great week in terms of actual work produced. I was able to start trying to fix the player movement, both for the player, and the possessed animals. It's difficult because the way that the animals are set up, means that only parts of the animal are effected by gravity, which makes it difficult to understand why it's breaking.</p>
 
 ## Week 16
-Clean everything up
+<p> In review of this week, we actually got our project all working together as one thing. </p>
 
 *Review*
+<p> In review of our final week, I'm really happy with the progress that we've made on this project. The game has progress significantly from where it was, and I'm glad that I was able to be a part of it. </p>
+
+## Documentation
+<a href="Documentation.docx" download>Download</a>
