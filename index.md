@@ -198,7 +198,7 @@
 *Review*
 <p> In review of this week, it was really good to finally be able to get down and actually do work on the project. It was really interesting trying to go through the code that had already been created. Trying to find out how things work together, and how to change things to do different stuff. </p>
 
-*Original Terrain*
+*The Game*
 ![Image](OriginalTerrain.png)
 
 ## Week 4
